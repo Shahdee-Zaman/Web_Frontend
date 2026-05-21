@@ -55,7 +55,7 @@ const InlineChat: React.FC = () => {
         }
       }
     } catch {
-      setMessages(prev => { const u = [...prev]; u[u.length - 1] = { role: 'assistant', content: 'Something went wrong � please try again.' }; return u; });
+      setMessages(prev => { const u = [...prev]; u[u.length - 1] = { role: 'assistant', content: 'This feature is still in development.' }; return u; });
     } finally { setLoading(false); }
   };
 
