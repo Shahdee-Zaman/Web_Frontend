@@ -7,7 +7,7 @@
 *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
 
 :root {
-  --bg:      #1c1917;
+  --bg:      rgb(23, 23, 27);
   --bg-deep: #141210;
   --sh-lt:   #2d2825;
   --sh-dk:   #0f0d0c;

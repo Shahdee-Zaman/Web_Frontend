@@ -1,6 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { CHAT_SYSTEM, SUGGESTIONS } from '../../constants/chat';
 
+
+/* Note: This is simply an example of how to add the chat and non functioning.
+The actual chat for the chat will be running from backend through API calls.
+This current one is just a placeholder to show how the chat will look like and how it will function on the frontend.
+*/
+
+
 interface Message { role: 'user' | 'assistant'; content: string; }
 
 const InlineChat: React.FC = () => {
