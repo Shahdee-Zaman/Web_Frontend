@@ -1,6 +1,6 @@
-# Shahdee Zaman Portfolio
+# FrontEnd for [Shahdee.dev](https://www.shahdee.dev/)
 
-A modern personal portfolio built with React, TypeScript, and Vite. The site presents a clean two-column layout with a sticky navigation bar, a strong visual identity, and focused sections for skills, experience, projects, education, and contact links.
+A modern frontend portfolio built with React and TypeScript. The site presents a clean two-column layout with a sticky navigation bar, a strong visual identity, focused sections for skills, experience, projects, education, and contact links and multiple layout option for easy swaps.
 
 ## Overview
 
@@ -20,9 +20,7 @@ This project is designed to showcase professional background and technical work 
 
 - React 19
 - TypeScript
-- Vite
 - Plain CSS for styling
-- ESLint for code quality
 
 ## Getting Started
 
@@ -48,13 +46,6 @@ Then open the local URL shown in the terminal, usually:
 ```bash
 http://localhost:5173
 ```
-
-### Build for Production
-
-```bash
-npm run build
-```
-
 
 ## Project Structure
 
